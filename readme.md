@@ -1,0 +1,14 @@
+- Install dulu environtmentnya (jika menggunakan windows)
+-- "pip install virtualenv"
+- lalu jika menggunakan linux dan macos
+-- "sudo apt-get install virtualenv"
+- Lalu install flasknya
+-- "pip install Flask"
+- Lalu install scikit learn
+-- "pip install -U scikit-learn"
+- Lalu install jupyter notebook
+-- "pip install notebook"
+- Lalu install package lainnya
+-- "pip install yfinance"
+-- "pip install dtreeviz"
+-- "pip install seaborn"

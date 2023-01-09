@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><b>CPS</b></a>
+    <ul class="navbar-nav">
+       {% for data in menus %}
+       <li class="nav-item">
+            <a class="nav-link {{ data.isActive }}" href="{{ data.link }}">{{ data.name }}</a>
+        </li>
+       {% endfor %}
+    </ul>
+</nav>
